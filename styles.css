@@ -1,0 +1,101 @@
+.navegadora{
+    text-align: center;
+    width: max-content !important;
+}
+.titulonav{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    font-size: x-large;    
+}
+.subtitulonav{
+    font-size: 10px;
+    font-weight: 1;
+    font-family: monospace;
+    margin-top: -10px;  
+}
+.navbar-brand{
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: start;
+    height: max-content;
+}
+.headimag{
+    font-weight: 1;
+    font-family: monospace;
+    width: min-content;  
+}
+.dropdown-menu{
+    background-color:  #ffae18 !important;    
+}
+.dropdown-item:hover{    
+    background-color:  #000000 !important;
+    color:white !important;    
+}
+.dropdown-item{ 
+    transition: all 500ms;
+}
+.imagenhead{
+    text-align: center;
+    width: min-content;
+}
+.imagenhead h1{
+    text-align: center;
+    width: max-content;
+    font-size: calc(2rem + 1.5vw) !important;
+}
+.imagen78421{
+    width: 200px !important;
+}
+.bannner{
+    display:flex;
+    flex-flow: row;
+    align-items: center !important;
+    justify-content: space-around;
+}
+.cardini{
+    background-image: linear-gradient(#FF8A5A, #FFC669);
+    color:white;
+    height: max-content;
+}
+.min-con{
+    width: min-content;
+}
+.mn-con{
+    width: max-content;
+}
+.card-body{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+}
+.siii{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+}
+.row1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+}
+.aja{
+    justify-content: space-between;
+}
+.bolita{
+    width: 8vw;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vw;    
+    background-image: linear-gradient(#684746, #2D242A);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    top: calc(5vw + 6px);
+    cursor: pointer;    
+}
+.flex-align-center{
+    align-items: center;
+}
